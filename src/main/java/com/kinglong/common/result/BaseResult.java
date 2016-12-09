@@ -1,5 +1,8 @@
 package com.kinglong.common.result;
 
+import com.kinglong.common.error.BaseError;
+import com.kinglong.common.error.CommonError;
+import com.kinglong.common.exception.BaseException;
 import lombok.Data;
 
 import java.io.Serializable;
