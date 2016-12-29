@@ -4,8 +4,12 @@ package com.kinglong.common.error;
  * Created by chenjinlong on 2016/11/29.
  */
 public enum  CommonError implements BaseError {
-    SYSTEM_ERROR(0,"系统内部错误，请稍后再试!"),
-    COMMON_ERROR(1,"Common Error!");
+    SYSTEM_ERROR(10000001,"系统内部错误，请稍后再试!"),
+    COMMON_ERROR(10000002,"Common Error!"),
+    PARAM_ERROR(10000004,"参数错误！"),
+    PARAM_NULL_ERROR(10000003,"参数为空错误！"),
+    PARAM_BLANK_ERROR(10000004,"参数为空或空串错误！")
+    ;
 
     private final Integer code;
 
